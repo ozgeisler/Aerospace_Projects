@@ -13,9 +13,10 @@ if strcmp(vehicle, 'Boat')
     ENVIRONMENT.CR = 0.75;
 
     % Simulation
-    SIMULATION.X_0 = [200; 200; 0; 0; 0; 0];
+    SIMULATION.X_0 = [0; 0; 0; 0; 0; 0];
 
     % Inputs
-    INPUTS.type = 'step';
+    INPUTS.uAxial  = 0.25;             % constant forward thrust
+    INPUTS.uMoment = @(t) 0.5*sin(t/5); % sinusoidal moment
 end
 end
