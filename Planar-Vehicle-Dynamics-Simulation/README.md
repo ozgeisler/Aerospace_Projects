@@ -246,21 +246,6 @@ The project demonstrates the complete workflow
 
 ---
 
-## Future Improvements
-
-Possible future extensions include
-
-- LQR controller design
-- PID autopilot
-- Kalman filtering
-- Trajectory tracking
-- MPC
-- Monte Carlo analysis
-- Nonlinear observer design
-- OpenMDAO integration
-- Dymos trajectory optimization
-
----
 
 ## Learning Objectives
 
@@ -279,18 +264,3 @@ The workflow closely mirrors the procedures used in aircraft flight dynamics bef
 
 ---
 
-## Author
-
-**Özge İşler**
-
-Aerospace Engineer
-
-Research interests:
-
-- Flight Dynamics
-- Flight Control
-- Aircraft Modeling
-- Aeroelasticity
-- Multidisciplinary Design Optimization (MDO)
-- OpenMDAO
-- Dymos
